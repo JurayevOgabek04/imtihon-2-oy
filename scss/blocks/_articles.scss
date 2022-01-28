@@ -1,0 +1,217 @@
+
+.articles__title{
+    font-family: 'FuturaPT';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.articles-block{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.articles-left__block{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 305px;
+    height: 435px;
+    border-radius: 5px;
+    
+
+    &__title{
+        font-family: 'FuturaPT';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+        padding: 0 30px;
+
+        
+    }
+
+    &__subtitle{
+        font-family: 'FuturaPT';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        padding: 0 30px;
+    
+      
+
+    }
+
+    &__text{
+        font-family: 'FuturaPT';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        padding: 0 30px;
+
+        &:hover{
+            color: #FFBD54;
+            
+        }
+        &:active{
+            opacity: 0.6;
+        }
+
+        
+
+        &::before{
+            content: "";
+            position: absolute;
+            background: url(/images/pet.svg) no-repeat;
+            background-position: left -10px top 0;
+            width: 10%;
+            height: 100%;
+
+        }
+
+    }
+}
+
+
+
+
+.articles-main__block{
+    background-color: #FFFFFF;
+    display: flex;
+    width: 640px;
+    height: 435px;
+    border-radius: 5px;
+    
+}
+
+.articles-main__block__inner{
+    padding: 30px;
+}
+.articles-main__block__wrap{
+    display: flex;
+
+    &__link{
+        text-decoration: none;
+    }
+    &__time{
+        margin-left: auto;
+
+    }
+}
+
+.articles-main__block__inner{
+    &__title{
+        font-family: 'FuturaPT';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 29px;
+        color: #333333;
+
+    }
+
+    &__subtitle{
+        font-family: 'FuturaPT';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+
+    &__text{
+        font-family: 'FuturaPT';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        &:hover{
+            color: #FFBD54;
+            
+        }
+        &:active{
+            opacity: 0.6;
+        }
+
+        &::before{
+            content: "";
+            position: absolute;
+            background: url(/images/pet.svg) no-repeat;
+            background-position: left -10px top 0;
+            
+            height: 100%;
+
+        }
+
+    }
+}
+
+
+
+
+.articles-rigth__block{
+    background-color: #FFFFFF;
+    width: 305px;
+    height: 435px;
+    border-radius: 5px;
+
+    &__title{
+        font-family: 'FuturaPT';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+        padding: 0 30px;
+
+        
+    }
+
+    &__subtitle{
+        font-family: 'FuturaPT';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        padding: 0 30px;
+    
+      
+
+    }
+
+    &__text{
+        font-family: 'FuturaPT';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        padding: 0 30px;
+
+        &:hover{
+            color: #FFBD54;
+            
+        }
+        &:active{
+            opacity: 0.6;
+        }
+
+        
+
+        &::before{
+            content: "";
+            position: absolute;
+            background: url(/images/pet.svg) no-repeat;
+            background-position: left -10px top 0;
+            
+            height: 100%;
+
+        }
+
+    }
+    
+
+   
+}

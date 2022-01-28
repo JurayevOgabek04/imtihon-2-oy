@@ -1,0 +1,148 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+    background-color:  #F9F8F8;
+    
+}
+
+.header-top__link{
+    text-decoration: none;
+
+    font-family: 'FuturaPT';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    &::before{
+        content: "";
+        background: url(/images/house.svg) no-repeat;
+        width: 18px;
+        height: 19px;
+        
+
+        
+    }
+}
+
+
+
+.header-top__list{
+    display: flex;
+    list-style: none;
+    &::before{
+        content: "";
+        background: url(/images/phone.svg) no-repeat;
+        width: 13px;
+        height: 13px;
+        margin-right: 9px;
+    }
+}
+
+.header-top__item + .header-top__item{
+    margin-left: 22px;
+}
+
+.header-top__item{
+    &:hover{
+        color: #FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header-top__item:nth-child(2){
+    &::before{
+        content: "";
+        background: url(/images/Ellipse.svg) no-repeat;
+        width: 4px;
+        height: 4px;
+    }
+
+    &::after{
+        content: "";
+        background: url(/images/Ellipse.svg);
+        width: 4px;
+        height: 4px;
+    }
+}
+
+
+.header-top__times{
+    display: flex;
+    &::before{
+        content: "";
+        background: url(/images/times.svg) no-repeat;
+        width: 14px;
+        height: 14px;
+        margin-right: 9px;
+    }
+}
+
+.header-top__time:nth-child(2){
+    margin-left: 17px;
+}
+
+
+
+
+
+
+
+
+.header-main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #FFFFFF;
+    
+   
+    
+}
+
+.site-logo{
+    position: absolute;
+    width: 220px;
+    height: 110px;
+    top: -17px;
+    left: 65px;
+}
+
+.header-main__list{
+    display: flex;
+    list-style: none;
+    margin-left: 370px;
+    &::before{
+        content: "";
+        background: url(/images/active.svg) no-repeat;
+        width: 15px;
+        height: 15px;
+        margin-right: 12px;
+    }
+    
+    
+    
+}
+
+.header-main__item + .header-main__item{
+    margin-left: 55px;
+}
+
+.header-main__link{
+    text-decoration: none;
+}
+
+.header-main__query{
+    text-decoration: none;
+    margin-left: 200px;
+    
+    &::before{
+        content: "";
+        background: url(/images/pet.svg) no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+}

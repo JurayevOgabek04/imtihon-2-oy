@@ -1,0 +1,61 @@
+.first-input{
+    background-image: url(/images/subscription-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: calc(50%) calc(50% - px);
+
+   
+}
+
+.first-input__block{
+    padding: 200px 0 200px 200px;
+
+}
+
+.first-input__title{
+    font-family: 'FuturaPT';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;    
+    
+}
+
+.first-input__input{
+    width: 335px;
+    height: 50px;
+    padding-left: 22px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'FuturaPT';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+
+}
+
+.first-input__btn{
+    padding: 15px 53px 14px 50px;
+    background-color: #333333;
+    border-radius: 3px;
+    border: none;
+    font-family: 'FuturaPT';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    &:hover{
+        background-color: #FFBD54;
+        color: #333333;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+
